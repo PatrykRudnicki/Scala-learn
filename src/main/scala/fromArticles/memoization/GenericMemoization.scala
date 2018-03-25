@@ -1,6 +1,6 @@
 package fromArticles.memoization
 
-object GenericMemoization extends App {
+object GenericMemoization {
   def memoizeFnc[K, V](f: K => V): K => V = {
     var cache = Map.empty[K, V]
     k => {
