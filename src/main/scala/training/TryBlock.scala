@@ -11,7 +11,7 @@ object SecondTestObject {
   var value: String = "Initial value"
 }
 
-object TryBlock extends App {
+object TryBlock {
 
   def methodOne(): Unit = println("First method")
 
